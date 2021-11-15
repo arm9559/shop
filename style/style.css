@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header {
+  position: relative;
+}
+
+header div h2 {
+  font-family: 'Praise', cursive;
+}
+
+header .header-parent-container .gender-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .header-parent-container .gender-container .gender-span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .header-parent-container .gender-container .gender-span .men {
+  border-bottom: 1px solid black;
+}
+
+header .header-parent-container .gender-container .gender-span p {
+  padding-left: 12px;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+main {
+  position: relative;
+}
+
+main .main-parent-container div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid #efefef;
+  text-align: center;
+}
+
+main .main-parent-container div .cloths {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 750px;
+}
+
+main .main-parent-container div .cloths .size-container {
+  margin-top: 95px;
+}
+
+main .main-parent-container div .cloths .cloths-span {
+  color: black;
+  position: relative;
+  top: 125px;
+}
+
+main .main-parent-container div .size-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  grid-gap: 15px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  top: 25px;
+}
+
+main .main-parent-container div .size-container p {
+  cursor: pointer;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+  background: black;
+  color: white;
+  height: 35px;
+  width: 35px;
+}
+
+.modal-container {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 200px;
+  background: #efefef;
+  position: relative;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  margin-bottom: 5px;
+  font-style: italic;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.modal-container div span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: Center;
+      -ms-flex-pack: Center;
+          justify-content: Center;
+  font-size: 35px;
+  position: absolute;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  display: none;
+}
+
+.remove {
+  display: none;
+}
+
+.orange {
+  position: relative;
+  top: -5px;
+  z-index: -1;
+  color: orange;
+  font-size: 28px;
+  visibility: hidden;
+}
+
+i {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+i:hover {
+  color: red;
+}
+/*# sourceMappingURL=style.css.map */

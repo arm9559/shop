@@ -1,0 +1,109 @@
+*{margin:0;padding:0;box-sizing:border-box;}
+header{
+    position:relative;
+    div{
+        h2{
+            font-family: 'Praise', cursive;
+        }
+    }
+    .header-parent-container{
+        .gender-container{
+            display: flex;
+            justify-content: space-between;
+            .gender-span{
+                display: flex;
+                .men{
+                    border-bottom: 1px solid black;
+                }
+                p{
+                    padding-left: 12px;
+                    font-size: 25px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+main{
+    position: relative;
+    .main-parent-container{
+        div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border:1px solid #efefef;
+            text-align: center;
+            .cloths{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                height: 750px;
+                .size-container{
+                    margin-top: 95px;
+                }
+                .cloths-span {
+                    color:black;
+                    position: relative;
+                    top:125px;
+                }
+            }
+            .size-container{
+                display: flex;
+                grid-gap: 15px;
+                justify-content: center;
+                position: relative;
+                top: 25px;
+                p{
+                    cursor: pointer;
+                    transition: 0.5s all;
+                    background:black;
+                    color:white;
+                    height: 35px;
+                    width: 35px;
+                }
+            }
+        }
+    }
+}
+
+.modal-container{
+    justify-content: center;
+    height: 200px;
+    background:#efefef;
+    position: relative;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    margin-bottom:5px;
+    font-style: italic;
+    display: flex;
+    div{
+        span{
+             display: flex;
+             align-items: center;
+             justify-content: Center;
+             font-size: 35px;
+             position: absolute;
+             transition: 0.5s;
+             display: none;
+        }
+    }
+}
+
+.remove{
+    display: none;
+}
+.orange{
+    position: relative;
+    top: -5px;
+    z-index: -1;
+    color:orange;
+    font-size: 28px;
+    visibility: hidden;
+}
+i{
+    transition: 0.5s;
+    cursor: pointer;
+}
+i:hover{
+    color:red;
+}
